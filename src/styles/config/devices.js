@@ -10,5 +10,5 @@ const size = {
 
 export default {
   mobile: `(min-width: ${size.mobileS}px) and (max-width: ${size.tablet}px)`,
-  laptop: `(min-width: ${size.tablet}px) and (max-width: ${size.desktop}px)`,
+  desktop: `(min-width: ${size.tablet}px) and (max-width: ${size.desktop}px)`,
 };

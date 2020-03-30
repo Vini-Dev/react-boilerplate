@@ -1,4 +1,4 @@
-export const TOKEN_KEY = '@article-Token';
+export const TOKEN_KEY = '@react-Token';
 
 export const isAuthenticated = () => localStorage.getItem(TOKEN_KEY);
 
