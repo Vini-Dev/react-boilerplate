@@ -16,7 +16,7 @@ const Menu = () => {
     <Container>
       <Title>Menu</Title>
       <ThemeMode>
-        <Label>Modo escuro</Label>
+        <Label>Dark mode</Label>
         <Switch
           checked={currentTheme === 'dark'}
           onChange={handleChangeTheme}
