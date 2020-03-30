@@ -1,0 +1,22 @@
+| -------- | ------- | ------- |
+| Color    | Light   | Dark    |
+| -------- | ------- | ------- |
+| Blue     | #007AFF | #0A84FF |
+| Green    | #35C759 | #30D158 |
+| Indigo   | #5856D6 | #5E5CE6 |
+| Orange   | #FF9500 | #FF9F0A |
+| Pink     | #FF2D55 | #FF375F |
+| Purple   | #AF52DE | #BF5AF2 |
+| Red      | #FF3B30 | #FF453A |
+| Teal     | #5AC8FA | #64D2FF |
+| Yellow   | #FDCC00 | #FFD60A |
+| -------- | ------- | ------- |
+|             Gray             |
+| -------- | ------- | ------- |
+| Gray     | #8E8E93 | #8E8E93 |
+| Gray (2) | #AEAEB2 | #636366 |
+| Gray (3) | #C7C7CC | #48484A |
+| Gray (4) | #D1D1D6 | #3A3A3C |
+| Gray (5) | #E5E5EA | #2C2C2E |
+| Gray (6) | #F2F2F7 | #1C1C1E |
+| -------- | ------- | ------- |

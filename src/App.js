@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import { Router } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import { createBrowserHistory } from 'history';
+import light from '~/styles/theme/light';
+import dark from '~/styles/theme/dark';
 
-function App() {
+import Routes from './routes/index';
+import GlobalStyle from './styles/global';
+
+const history = createBrowserHistory();
+
+const App = () => {
+  const theme = useSelector((state) => state.theme);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme === 'light' ? light : dark}>
+      <Router history={history}>
+        <GlobalStyle />
+        <Routes />
+      </Router>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
